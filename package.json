@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project Node.js app",
   "scripts": {
-    "start": "node File-1.js"
+    "start": "node index.js"
   },
   
   "dependencies": {
