@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 // Route chính để gửi file index.html
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/exercise/index.html');
 });
 
 // Khởi động server
